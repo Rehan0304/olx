@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    position:fixed;
+    display: flex;
+    margin: 0px 0px;
+    background-color: rgb(50, 18, 231);
+    width: 100%;
+    height: 13%;
+    background-color: whitesmoke
+    
+ }
+.logo{
+    font-size: 50px;
+    font-weight: 900;
+    position: absolute;
+    top: 10px;
+}
+.location{
+    margin-left: 12px;
+    
+    
+}
+.loc input{
+    width: 270PX;
+    position: absolute;
+    left: 90px;
+    top: 18px;
+    height: 36px;
+}   
+.icon{
+    position: absolute;
+    top: 32px;
+    left: 340px;
+    
+}
+.search input{
+    position: absolute;
+    top: 18px;
+    left: 400px;
+    width: 350px;
+    height: 40px;
+}
+.icon1{
+    position: absolute;
+    top: 19px;
+    left: 713px;
+    background-color: #002f34;
+    padding: 10px;
+    color: white;
+
+}   
+.icon1:hover{
+    cursor: pointer;
+}
+.btn{
+    position: absolute;
+    left: 800px;
+    top: 23px;
+    padding: 6px;
+    background-color: white;
+    text-decoration: underline;
+    border: none;
+    font-size: larger;
+    font-weight: 700;
+    text-decoration: underline;
+    background-color: whitesmoke;
+}
+.btn:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.sell{
+    position: absolute;
+    left: 900px;
+    top: 18px;
+    background-color: white;
+    text-decoration: underline;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 7px 15px;
+    border-width:5px; 
+    border-top-color:rgb(102, 255, 255) ;
+    border-left-color:yellow ;
+    border-bottom-color:blue ;
+}
+.sell:hover{
+    cursor: pointer;
+}
+
+
+
+/* ********************************navbar*************************** */
+
+.nav{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 5%;
+    display: flex;
+    position: absolute;
+    top: 80px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.116);
+}
+#items{
+    /* margin-top: 0px; */
+    padding: 5px 8px;
+   border: none;
+   cursor: pointer;
+   font-size: 15px;
+   font-weight: 500;
+   width: 140px;
+    
+}
+.mob{
+    /* border: 2px solid black; */
+    margin-top: 0px;
+    padding: 5px;
+    margin-left: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.mob a{
+    text-decoration: none;
+    color: #002f34;
+}
+.mob a:hover{
+    color: rgb(80, 173, 173);
+}
+.cars{
+    margin-top: 0px;
+    padding: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.cars a{
+    text-decoration: none;
+    color: #002f34;
+}
+.cars a:hover{
+    color: rgb(80, 173, 173);
+}
+.motorcycle{
+    margin-top: 0px;
+    padding: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.motorcycle a{
+    text-decoration: none;
+    color: #002f34;
+}
+.motorcycle a:hover{
+    color: rgb(80, 173, 173);
+}
+.houses{
+    margin-top: 0px;
+    padding: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.houses a{
+    text-decoration: none;
+    color: #002f34;
+}
+.houses a:hover{
+    color: rgb(80, 173, 173);
+}
+
+.TV{
+    margin-top: 0px;
+    padding: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.TV a{
+    text-decoration: none;
+    color: #002f34;
+}
+.TV a:hover{
+    color: rgb(80, 173, 173);
+}
+.tablets{
+    margin-top: 0px;
+    padding: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.tablets a{
+    text-decoration: none;
+    color: #002f34;
+}
+.tablets a:hover{
+    color: rgb(80, 173, 173);
+}
+.lands{
+    margin-top: 0px;
+    padding: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.lands a{
+    text-decoration: none;
+    color: #002f34;
+}
+.lands a:hover{
+    color: rgb(80, 173, 173);
+}
+
+
