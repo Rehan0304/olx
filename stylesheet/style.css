@@ -1,219 +1,401 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* overflow: none; */
 }
 .header {
-    position:fixed;
-    display: flex;
-    margin: 0px 0px;
-    background-color: rgb(50, 18, 231);
-    width: 100%;
-    height: 13%;
-    background-color: whitesmoke
-    
- }
-.logo{
-    font-size: 50px;
-    font-weight: 900;
-    position: absolute;
-    top: 10px;
+  padding-bottom: 10px;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  /* border: 2px solid black; */
+  width: 100%;
+  background-color: whitesmoke;
 }
-.location{
+.logo {
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: 5px;
+}
+/* .location{
     margin-left: 12px;
     
     
+} */
+.loc input {
+  width: 270px;
+  margin-top: 15px;
+  margin-left: 33px;
+  height: 40px;
 }
-.loc input{
-    width: 270PX;
-    position: absolute;
-    left: 90px;
-    top: 18px;
-    height: 36px;
-}   
-.icon{
-    position: absolute;
-    top: 32px;
-    left: 340px;
-    
+.icon {
+  position: absolute;
+  top: 28px;
+  left: 345px;
 }
-.search input{
-    position: absolute;
-    top: 18px;
-    left: 400px;
-    width: 350px;
-    height: 40px;
+.search input {
+  margin-top: 15px;
+  margin-left: 33px;
+  width: 350px;
+  height: 40px;
 }
-.icon1{
-    position: absolute;
-    top: 19px;
-    left: 713px;
-    background-color: #002f34;
-    padding: 10px;
-    color: white;
+.icon1 {
+  position: absolute;
+  top: 16px;
+  left: 713px;
+  background-color: #002f34;
+  padding: 10px;
+  color: white;
+}
+.icon1:hover {
+  cursor: pointer;
+}
+.btn {
+  margin-top: 14px;
+  margin-left: 35px;
+  padding: 6px;
+  background-color: white;
+  /* text-decoration: underline; */
+  border: none;
+  font-size: larger;
+  font-weight: 700;
+  text-decoration: underline;
+  background-color: whitesmoke;
+  /* border: 2px solid black; */
+}
+.btn:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.sell {
+  margin-top: 20px;
+  margin-left: 30px;
+  background-color: white;
+  text-decoration: underline;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 7px 15px;
 
-}   
-.icon1:hover{
-    cursor: pointer;
+  border-width: 5px;
+  border-top-color: rgb(102, 255, 255);
+  border-left-color: yellow;
+  border-bottom-color: blue;
 }
-.btn{
-    position: absolute;
-    left: 800px;
-    top: 23px;
-    padding: 6px;
-    background-color: white;
-    text-decoration: underline;
-    border: none;
-    font-size: larger;
-    font-weight: 700;
-    text-decoration: underline;
-    background-color: whitesmoke;
+.sell:hover {
+  cursor: pointer;
 }
-.btn:hover{
-    text-decoration: none;
-    cursor: pointer;
-}
-.sell{
-    position: absolute;
-    left: 900px;
-    top: 18px;
-    background-color: white;
-    text-decoration: underline;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: 700;
-    padding: 7px 15px;
-    border-width:5px; 
-    border-top-color:rgb(102, 255, 255) ;
-    border-left-color:yellow ;
-    border-bottom-color:blue ;
-}
-.sell:hover{
-    cursor: pointer;
-}
-
-
 
 /* ********************************navbar*************************** */
 
-.nav{
-    /* border: 2px solid green; */
-    width: 100%;
-    height: 5%;
+.nav {
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 5%;
+  display: flex;
+  margin-top: 15px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.116);
+}
+#items {
+  margin-top: 0px;
+  padding: 5px 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  width: 140px;
+}
+.mob {
+  /* border: 2px solid black; */
+  margin-top: 0px;
+  padding: 5px;
+  margin-left: 25px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mob a {
+  text-decoration: none;
+  color: #002f34;
+}
+.mob a:hover {
+  color: rgb(80, 173, 173);
+}
+.cars {
+  margin-top: 0px;
+  padding: 5px;
+  margin-left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cars a {
+  text-decoration: none;
+  color: #002f34;
+}
+.cars a:hover {
+  color: rgb(80, 173, 173);
+}
+.motorcycle {
+  margin-top: 0px;
+  padding: 5px;
+  margin-left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.motorcycle a {
+  text-decoration: none;
+  color: #002f34;
+}
+.motorcycle a:hover {
+  color: rgb(80, 173, 173);
+}
+.houses {
+  margin-top: 0px;
+  padding: 5px;
+  margin-left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.houses a {
+  text-decoration: none;
+  color: #002f34;
+}
+.houses a:hover {
+  color: rgb(80, 173, 173);
+}
+
+.TV {
+  margin-top: 0px;
+  padding: 5px;
+  margin-left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.TV a {
+  text-decoration: none;
+  color: #002f34;
+}
+.TV a:hover {
+  color: rgb(80, 173, 173);
+}
+.tablets {
+  margin-top: 0px;
+  padding: 5px;
+  margin-left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.tablets a {
+  text-decoration: none;
+  color: #002f34;
+}
+.tablets a:hover {
+  color: rgb(80, 173, 173);
+}
+.lands {
+  margin-top: 0px;
+  padding: 5px;
+  margin-left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.lands a {
+  text-decoration: none;
+  color: #002f34;
+}
+.lands a:hover {
+  color: rgb(80, 173, 173);
+}
+
+/* *************************advertise******************** */
+.adv {
+  margin-top: 15px;
+  margin-left: 35px;
+}
+.adv img {
+  width: 950px;
+}
+/* *************************products******************** */
+.sec1 {
+  display: flex;
+  width: 100%;
+  /* border: 2px solid black; */
+  /* height: 800px; */
+}
+.cart1 {
+  border: 2px solid rgb(212, 203, 203);
+  width: 22%;
+  height: 60%;
+}
+.cart1 img {
+  display: flex;
+  margin-top: -2px;
+  width: 103%;
+  height: 60%;
+}
+.cart1 p {
+  margin-left: 15px;
+}
+.cart1 .price {
+  font-weight: bold;
+  margin-top: 5px;
+}
+.cart1 .name {
+  margin-top: 5px;
+  word-spacing: 4px;
+}
+.cart1 .area {
+  margin-top: 10px;
+}
+.cart1 .time {
+  margin-top: 5px;
+}
+.cart2 {
+  margin-left: 40px;
+  border: 2px solid rgb(212, 203, 203);
+  width: 22%;
+  height: 60%;
+}
+.cart2 img {
+  display: flex;
+  margin-top: -2px;
+  width: 103%;
+  height: 60%;
+}
+.cart2 p {
+  margin-left: 15px;
+}
+.cart2 .price {
+  font-weight: bold;
+  margin-top: 5px;
+}
+.cart2 .name {
+  margin-top: 5px;
+  word-spacing: 4px;
+}
+.cart2 .area {
+  margin-top: 10px;
+}
+.cart2 .time {
+  margin-top: 5px;
+}
+.cart3 {
+  margin-left: 40px;
+  border: 2px solid rgb(212, 203, 203);
+  width: 22%;
+  height: 60%;
+}
+.cart3 img {
+  display: flex;
+  margin-top: -2px;
+  width: 103%;
+  height: 60%;
+}
+.cart3 p {
+  margin-left: 15px;
+}
+.cart3 .price {
+  font-weight: bold;
+  margin-top: 5px;
+}
+.cart3 .name {
+  margin-top: 5px;
+  word-spacing: 4px;
+}
+.cart3 .area {
+  margin-top: 10px;
+}
+.cart3 .time {
+  margin-top: 5px;
+}
+.cart4 {
+  margin-left: 40px;
+  border: 2px solid rgb(212, 203, 203);
+  width: 22%;
+  height: 60%;
+}
+.cart4 img {
+  display: flex;
+  margin-top: -2px;
+  width: 103%;
+  height: 60%;
+}
+.cart4 p {
+  margin-left: 15px;
+}
+.cart4 .price {
+  font-weight: bold;
+  margin-top: 5px;
+}
+.cart4 .name {
+  margin-top: 5px;
+  word-spacing: 4px;
+}
+.cart4 .area {
+  margin-top: 10px;
+}
+/* .cart5{
+    margin-top: 300px;
+    margin-left:-50px;
+    border: 2px solid rgb(212, 203, 203);
+    width: 22%;
+    height: 60%;
+}
+.cart5 img{
     display: flex;
-    position: absolute;
-    top: 80px;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.116);
+    margin-top:-2px ;
+    width: 103%;
+    height: 60%;
 }
-#items{
-    /* margin-top: 0px; */
-    padding: 5px 8px;
-   border: none;
-   cursor: pointer;
-   font-size: 15px;
-   font-weight: 500;
-   width: 140px;
+.cart5 p{
+    margin-left: 15px;
+
     
 }
-.mob{
-    /* border: 2px solid black; */
-    margin-top: 0px;
-    padding: 5px;
-    margin-left: 25px;
-    text-decoration: none;
-    cursor: pointer;
+.cart5 .price{
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+.cart5 .name{
+    margin-top: 5px;
+    word-spacing: 4px;
+}
+.cart5 .area{
+    margin-top: 10px;
     
 }
-.mob a{
-    text-decoration: none;
-    color: #002f34;
+.cart6{
+    margin-left: 40px;
+    border: 2px solid rgb(212, 203, 203);
+    width: 22%;
+    height: 60%;
 }
-.mob a:hover{
-    color: rgb(80, 173, 173);
+.cart6 img{
+    display: flex;
+    margin-top:-2px ;
+    width: 103%;
+    height: 60%;
 }
-.cars{
-    margin-top: 0px;
-    padding: 5px;
-    margin-left: 10px;
-    text-decoration: none;
-    cursor: pointer;
-}
-.cars a{
-    text-decoration: none;
-    color: #002f34;
-}
-.cars a:hover{
-    color: rgb(80, 173, 173);
-}
-.motorcycle{
-    margin-top: 0px;
-    padding: 5px;
-    margin-left: 10px;
-    text-decoration: none;
-    cursor: pointer;
-}
-.motorcycle a{
-    text-decoration: none;
-    color: #002f34;
-}
-.motorcycle a:hover{
-    color: rgb(80, 173, 173);
-}
-.houses{
-    margin-top: 0px;
-    padding: 5px;
-    margin-left: 10px;
-    text-decoration: none;
-    cursor: pointer;
-}
-.houses a{
-    text-decoration: none;
-    color: #002f34;
-}
-.houses a:hover{
-    color: rgb(80, 173, 173);
-}
+.cart6 p{
+    margin-left: 15px;
 
-.TV{
-    margin-top: 0px;
-    padding: 5px;
-    margin-left: 10px;
-    text-decoration: none;
-    cursor: pointer;
+    
 }
-.TV a{
-    text-decoration: none;
-    color: #002f34;
-}
-.TV a:hover{
-    color: rgb(80, 173, 173);
-}
-.tablets{
-    margin-top: 0px;
-    padding: 5px;
-    margin-left: 10px;
-    text-decoration: none;
-    cursor: pointer;
-}
-.tablets a{
-    text-decoration: none;
-    color: #002f34;
-}
-.tablets a:hover{
-    color: rgb(80, 173, 173);
-}
-.lands{
-    margin-top: 0px;
-    padding: 5px;
-    margin-left: 10px;
-    text-decoration: none;
-    cursor: pointer;
-}
-.lands a{
-    text-decoration: none;
-    color: #002f34;
-}
-.lands a:hover{
-    color: rgb(80, 173, 173);
-}
+.cart6 .price{
+    font-weight: bold;
+    margin-top: 5px;
 
-
+}
+.cart6 .name{
+    margin-top: 5px;
+    word-spacing: 4px;
+}
+.cart6 .area{
+    margin-top: 10px;
+    
+}
+.cart7 .time{
+    margin-top: 5px;
+    
+} */
